@@ -12,6 +12,7 @@ class _HomeState extends State<HomePage>{
   Widget build(BuildContext context) {
     // TODO: implement build
     return new Scaffold(
+
       appBar: AppBar(
         backgroundColor: Colors.cyan,
         title: Row(
