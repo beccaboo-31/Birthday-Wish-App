@@ -12,9 +12,7 @@ class BlogApp extends StatelessWidget{
     return MaterialApp(
       title: "Ashna 22!",
 
-      theme: new ThemeData(
-        primarySwatch: Colors.pink
-      ),
+      theme: ThemeData.dark(),
 
       home: HomePage()
     );
