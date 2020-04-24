@@ -11,6 +11,7 @@ class _HomeState extends State<HomePage>{
   Widget build(BuildContext context) {
     // TODO: implement build
     return new Scaffold(
+
       appBar: AppBar(
         title: Text("Happy Birthday Ashna!")
       ),
