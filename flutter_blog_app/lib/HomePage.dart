@@ -14,6 +14,10 @@ class _HomeState extends State<HomePage>{
       appBar: AppBar(
         title: Text("Happy Birthday Ashna!")
       ),
+
+      body: new Container(
+        margin: EdgeInsets.all(15)
+      )
     );
   }
 }
