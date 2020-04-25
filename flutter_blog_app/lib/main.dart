@@ -11,9 +11,7 @@ class BlogApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       title: "Ashna 22!",
 
-      theme: new ThemeData(
-        primarySwatch: Colors.pink
-      ),
+      theme: ThemeData.dark(),
 
       home: HomePage()
     );
