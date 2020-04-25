@@ -34,11 +34,11 @@ class _HomeState extends State<HomePage>{
     return new Scaffold(
 
       appBar: AppBar(
-        backgroundColor: Color(0xFF02bb9f),
+        backgroundColor: Color(0xFF99004d),
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-          Text("Happy Birthday Ashna! ❤️",
+          Text("Happy Birthday Ashna! 💛",
           style: GoogleFonts.merienda(
             textStyle: TextStyle(
             fontSize: 21,
