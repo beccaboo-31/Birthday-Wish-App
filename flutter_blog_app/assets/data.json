@@ -1,8 +1,9 @@
 [
+
   {
     "id": "1",
     "name": "Dhruvil S",
-    "msg": "Happy Birthday Ashnaa!!\nHope you have a great year ahead as it brings new opportunities with it and higher pointers",
+    "msg": "Hey Ashna,\nHappy Birthdayyy\nHope you have a great year ahead full of opportunities and higher pointers as well\nGood luck on your future endeavours",
     "imgurl": "images/DhruvilS.jpg"
   },
   {
@@ -101,29 +102,21 @@
     "msg": "Happy birthday  to the cutest person i know.\n Although we haven't talked much but you have always been very helpful and soft spoken ❤❤❤\n Stay as amazing as you are",
     "imgurl": "images/Simran.jpg"
   },
-  {
-    "id": "28",
-    "name": "Myron",
-    "msg": "---our message---",
-    "imgurl": "images/Myron.jpg"
-  },
-  {
-    "id": "29",
-    "name": "Neha",
-    "msg": "---our message---",
-    "imgurl": "images/Neha.jpg"
-  },
-  {
-    "id": "30",
-    "name": "Becca",
-    "msg": "---our message---",
-    "imgurl": "images/Becca.jpg"
-  },
+
+
+
+
   {
     "id": "2",
     "name": "Mihir",
     "msg": "Happy birthday Ashna!!🎉❤️ Hope you have the best lockdown birthday possible! We will all celebrate together once it is over for sure! Happy 22!❤️",
     "imgurl": "images/Mihir.jpeg"
+  },
+  {
+    "id": "31",
+    "name": "Aniket",
+    "msg": "The most loving un-nerdy nerd I have been friends with. Between “Ashna kaisi hai” to “Ashna mein suna tu Machari hai” we all grew up :P \n\nA very happy birthday and hope you have an awesomely beautiful year ahead, heck! a whole life ahead! \nWear that smile everyday!❤️",
+    "imgurl": "images/Aniket.jpg"
   },
   {
     "id": "6",
@@ -161,12 +154,10 @@
     "msg": "Happy Birthday Ashna... \nOne of the most dedicated and disciplined person I know.\n Don't ever change, be as amazing as you are, mah friend :)",
     "imgurl": "images/Tirth.jpeg"
   },
-  {
-    "id": "19",
-    "name": "Prachi Simran",
-    "msg": "16 years of friendship? That’s a lot of tolerance... but you know what you are worth the tolerance Ashna❤️ Cheers to our friendship and happy quarantined bday for now🥰\nOnce this ends we are going to party like there is no tomorrow🥰😘",
-    "imgurl": "images/friends.jpeg"
-  },
+
+
+
+
   {
     "id": "17",
     "name": "Mom Dad",
@@ -178,6 +169,32 @@
     "name": "Sakshi",
     "msg": "Sister,\nYou are like a flower that always blooms🌺\nYou are like the sun that always shines☀️\nYou and parents are the one who have brought the real magic in my life✨✨\nWish u many many happy returns of the day 🎉🎂",
     "imgurl": "images/sakshi.jpg"
+  },
+  {
+    "id": "19",
+    "name": "Prachi Simran",
+    "msg": "16 years of friendship? That’s a lot of tolerance... but you know what you are worth the tolerance Ashna❤️ Cheers to our friendship and happy quarantined bday for now🥰\nOnce this ends we are going to party like there is no tomorrow🥰😘",
+    "imgurl": "images/friends.jpeg"
+  },
+  {
+    "id": "28",
+    "name": "Myron",
+    "msg": "---our message---",
+    "imgurl": "images/Myron.jpg"
+  },
+  {
+    "id": "29",
+    "name": "Neha",
+    "msg": "---our message---",
+    "imgurl": "images/Neha.jpg"
+  },
+  {
+    "id": "30",
+    "name": "Becca",
+    "msg": "---our message---",
+    "imgurl": "images/Becca.jpg"
   }
+
+
 ]
 
