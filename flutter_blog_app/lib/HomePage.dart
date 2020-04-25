@@ -65,15 +65,17 @@ class _HomeState extends State<HomePage>{
               ),
               onTap: (){
                 showDialog(
-                  barrierDismissible: false,
+                  barrierDismissible: true,
                   context: context,
                   child: CupertinoAlertDialog(
                     title: Column(
                       children: <Widget>[
-                        Text(showData[index]['name'],)
+                        Text(showData[index]['name'],
+                        style: TextStyle(fontSize: 20),)
                       ],
                     ),
                     content: Text(showData[index]['msg'],
+                      style: TextStyle(fontSize: 16, height: 1.5)
                     ),
                   )
                 );
