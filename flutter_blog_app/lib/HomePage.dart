@@ -1,7 +1,10 @@
 import 'dart:convert';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_blog_app/main.dart';
+import 'package:auto_size_text/auto_size_text.dart';
+  
 
 class HomePage extends StatefulWidget{
   State<StatefulWidget> createState(){
@@ -53,13 +56,30 @@ class _HomeState extends State<HomePage>{
           itemBuilder: (BuildContext context, int index){ //Have to pass something
             return new GestureDetector(
               child: new Card(
-                elevation: 5,
+                // elevation: 5,
                 child: Container(
                   alignment: Alignment.center,
                   margin: EdgeInsets.only(top: 10, bottom: 10, left: 10),
-                  child: Text(showData[index]['msg'])//Image has to be put here
+                  child: Image.asset('images/Shivani.jpg', fit: BoxFit.cover)//Image has to be put here
                   )
-              )
+              ),
+              onTap: (){
+                showDialog(
+                  barrierDismissible: true,
+                  context: context,
+                  child: CupertinoAlertDialog(
+                    title: Column(
+                      children: <Widget>[
+                        Text(showData[index]['name'],
+                        style: TextStyle(fontSize: 20),)
+                      ],
+                    ),
+                    content: Text(showData[index]['msg'],
+                      style: TextStyle(fontSize: 16, height: 1.5)
+                    ),
+                  )
+                );
+              },
             );
           });
         }, future: DefaultAssetBundle.of(context).loadString("assets/sample.json"),
