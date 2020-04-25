@@ -42,7 +42,7 @@ class _HomeState extends State<HomePage>{
           style: TextStyle(
             fontSize: 22)
           ),
-          Text("Ashna!",
+          Text("Ashna! ❤️",
           style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),)
         ],)
       ),
@@ -56,11 +56,12 @@ class _HomeState extends State<HomePage>{
           itemBuilder: (BuildContext context, int index){ //Have to pass something
             return new GestureDetector(
               child: new Card(
-                // elevation: 5,
+                elevation: 5,
                 child: Container(
                   alignment: Alignment.center,
-                  margin: EdgeInsets.only(top: 10, bottom: 10, left: 10),
+                  margin: EdgeInsets.all(5),
                   child: Image.asset('images/Shivani.jpg', fit: BoxFit.cover)//Image has to be put here
+                  
                   )
               ),
               onTap: (){
