@@ -1,5 +1,5 @@
 import 'dart:convert';
-
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_blog_app/main.dart';
@@ -34,16 +34,24 @@ class _HomeState extends State<HomePage>{
     return new Scaffold(
 
       appBar: AppBar(
-        backgroundColor: Color(0xFFFD7272),
+        backgroundColor: Color(0xFF02bb9f),
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
           Text("Happy Birthday ",
-          style: TextStyle(
-            fontSize: 22)
+          style: GoogleFonts.merienda(
+            textStyle: TextStyle(
+            fontSize: 21,
+            fontWeight: FontWeight.bold
+            ),) 
           ),
           Text("Ashna! ❤️",
-          style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),)
+          style: GoogleFonts.merienda(
+            textStyle: TextStyle(
+            fontSize: 21,
+            fontWeight: FontWeight.bold
+            ),) 
+            )
         ],)
       ),
 
