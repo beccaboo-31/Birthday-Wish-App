@@ -38,20 +38,20 @@ class _HomeState extends State<HomePage>{
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-          Text("Happy Birthday ",
+          Text("Happy Birthday Ashna! ❤️",
           style: GoogleFonts.merienda(
             textStyle: TextStyle(
             fontSize: 21,
             fontWeight: FontWeight.bold
             ),) 
           ),
-          Text("Ashna! ❤️",
-          style: GoogleFonts.merienda(
-            textStyle: TextStyle(
-            fontSize: 21,
-            fontWeight: FontWeight.bold
-            ),) 
-            )
+          // Text("Ashna! ❤️",
+          // style: GoogleFonts.merienda(
+          //   textStyle: TextStyle(
+          //   fontSize: 21,
+          //   fontWeight: FontWeight.bold
+          //   ),) 
+          //   )
         ],)
       ),
 
