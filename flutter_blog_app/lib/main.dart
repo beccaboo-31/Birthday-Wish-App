@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'HomePage.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main()=> runApp(BlogApp());
 
