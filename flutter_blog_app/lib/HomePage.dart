@@ -115,5 +115,5 @@ class _HomeState extends State<HomePage>{
 /*in data.json :
 * all ppl colg with pics
 * 8:  ppl with name as image:- mihir, avinash, akshay, nipun, chirag, darshan, tirth, aniket.
-* 6:  mom dad 17,  sakshi 18,  friend prachi simran 19,  myron neha becca: 28, 29, 30 ,
+* end: mom dad 17,  sakshi 18,  friend prachi simran 19, aayush myron neha becca: 24, 28, 29, 30.
 */
