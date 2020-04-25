@@ -34,7 +34,7 @@ class _HomeState extends State<HomePage>{
     return new Scaffold(
 
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
+        backgroundColor: Color(0xFFFD7272),
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
