@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_blog_app/main.dart';
-import 'package:auto_size_text/auto_size_text.dart';
+// import 'package:flutter_blog_app/main.dart';
+// import 'package:auto_size_text/auto_size_text.dart';
   
 
 class HomePage extends StatefulWidget{
@@ -60,8 +60,7 @@ class _HomeState extends State<HomePage>{
                 child: Container(
                   alignment: Alignment.center,
                   margin: EdgeInsets.all(5),
-                  child: Image.asset('images/Shivani.jpg', fit: BoxFit.cover)//Image has to be put here
-                  
+                  child: Image.asset(showData[index]["imgurl"], fit: BoxFit.cover)//Image has to be put here
                   )
               ),
               onTap: (){
@@ -83,7 +82,7 @@ class _HomeState extends State<HomePage>{
               },
             );
           });
-        }, future: DefaultAssetBundle.of(context).loadString("assets/sample.json"),
+        }, future: DefaultAssetBundle.of(context).loadString("assets/data.json"),
         ),
         ),
       /* Code for a Button */
