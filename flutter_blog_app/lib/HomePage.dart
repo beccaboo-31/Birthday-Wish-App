@@ -15,22 +15,6 @@ class HomePage extends StatefulWidget{
 class _HomeState extends State<HomePage>{
   @override
   Widget build(BuildContext context) {
-    // var myGridView = new GridView.builder(
-    //   itemCount: ,
-    //   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), 
-    //   itemBuilder: (BuildContext context, int index){ //Have to pass something
-    //     return new GestureDetector(
-    //       child: new Card(
-    //         elevation: 5,
-    //         child: Container(
-    //           alignment: Alignment.center,
-    //           margin: EdgeInsets.only(top: 10, bottom: 10, left: 10),
-    //           child: Text("Hi")//Image has to be put here
-    //           )
-    //       )
-    //     );
-    //   });
-    // TODO: implement build
     return new Scaffold(
 
       appBar: AppBar(
@@ -38,20 +22,12 @@ class _HomeState extends State<HomePage>{
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-          Text("Happy Birthday Ashna! 💛",
-          style: GoogleFonts.merienda(
-            textStyle: TextStyle(
+          Text("Happy Birthday Jon! 💛",
+          style: TextStyle(
             fontSize: 21,
             fontWeight: FontWeight.bold
-            ),) 
+            )
           ),
-          // Text("Ashna! ❤️",
-          // style: GoogleFonts.merienda(
-          //   textStyle: TextStyle(
-          //   fontSize: 21,
-          //   fontWeight: FontWeight.bold
-          //   ),) 
-          //   )
         ],)
       ),
 
@@ -61,14 +37,14 @@ class _HomeState extends State<HomePage>{
           return GridView.builder(
           itemCount: showData.length,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), 
-          itemBuilder: (BuildContext context, int index){ //Have to pass something
+          itemBuilder: (BuildContext context, int index){
             return new GestureDetector(
               child: new Card(
                 elevation: 5,
                 child: Container(
                   alignment: Alignment.center,
                   margin: EdgeInsets.all(5),
-                  child: Image.asset(showData[index]["imgurl"], fit: BoxFit.cover)//Image has to be put here
+                  child: Image.asset(showData[index]["imgurl"], fit: BoxFit.cover)
                   )
               ),
               onTap: (){
@@ -90,38 +66,10 @@ class _HomeState extends State<HomePage>{
               },
             );
           });
-        }, future: DefaultAssetBundle.of(context).loadString("assets/data.json"),
+        }, future: DefaultAssetBundle.of(context).loadString("assets/data.json"), // DATA.JSON HOLDS ALL IMAGES AND MESSAGES
         ),
         ),
-      /* Code for a Button */
-      
-      // floatingActionButton: Container(
-      //   margin: EdgeInsets.only(left: 30),
-      //   padding: EdgeInsets.symmetric(vertical: 15),
-      //   child: Row(
-      //     mainAxisAlignment: MainAxisAlignment.center,
-      //     children: <Widget>[
-      //       FloatingActionButton(
-      //         backgroundColor: Colors.cyan,
-      //         onPressed: (){
-      //           Navigator.push(context, MaterialPageRoute(builder: (context) => BlogApp()));
-      //         },
-      //         child: new IconTheme(
-      //           data: new IconThemeData(
-      //               color: Colors.white), 
-      //           child: new Icon(Icons.add),
-      //         ),
-      //         )
-      //     ],)
-      // ),
     );
   }
 }
 
-
-
-/*in data.json :
-* all ppl colg with pics
-* 8:  ppl with name as image:- mihir, avinash, akshay, nipun, chirag, darshan, tirth, aniket.
-* end: mom dad 17,  sakshi 18,  friend prachi simran 19, aayush myron neha becca: 24, 28, 29, 30.
-*/
