@@ -42,4 +42,10 @@ For minimizing app size use following commands to build the app :
 - For security and privacy purposes one may use offline images.
 - A 512x512 resolution image looks clear and image size will merely be ~150KB
 - This won't make the app bulky, and the complete app can be <10MB by excluding extra bundles.
+
+### Authors
+
+- Myron Carvalho
+- Neha Patil
+- Rebecca Biju
   
